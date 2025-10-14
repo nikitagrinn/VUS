@@ -1,5 +1,3 @@
-# main.py
-
 import configparser
 
 def calculate(operand1, operand2, epsilon=0.0001):
