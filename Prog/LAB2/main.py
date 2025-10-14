@@ -1,3 +1,5 @@
+# main.py
+
 import configparser
 
 def calculate(operand1, operand2, epsilon=0.0001):
@@ -32,7 +34,6 @@ def load_params(config_file='settings.ini'):
     except ValueError:
         raise ValueError("Неверный формат числа для epsilon в файле.")
 
-# --- Пример использования ---
 if __name__ == "__main__":
     try:
         # Для демонстрации создадим временный файл settings.ini
@@ -44,12 +45,14 @@ if __name__ == "__main__":
         loaded_epsilon = load_params()
         print(f"Загруженная точность: {loaded_epsilon}")
         
-        # Теперь epsilon можно передавать и как позиционный аргумент
-        # result = calculate(10, 3, 0.01) 
         
-      
         result = calculate(10, 3, epsilon=loaded_epsilon)
-        print(f"Результат 10 / 3: {result}")
+        print(f"Результат 10 / 3 (с ключевым epsilon): {result}")
+
+        
+        result_positional = calculate(10, 3, loaded_epsilon)
+        print(f"Результат 10 / 3 (с позиционным epsilon): {result_positional}")
+
 
     except Exception as e:
         print(f"Ошибка: {e}")
