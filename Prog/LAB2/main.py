@@ -47,7 +47,7 @@ if __name__ == "__main__":
         # Теперь epsilon можно передавать и как позиционный аргумент
         # result = calculate(10, 3, 0.01) 
         
-        # ...и как ключевой (как было в вашем примере)
+      
         result = calculate(10, 3, epsilon=loaded_epsilon)
         print(f"Результат 10 / 3: {result}")
 
