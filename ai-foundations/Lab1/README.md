@@ -59,6 +59,7 @@
 | **Итоговая оценка** | **5** | Отличный результат для быстрой подготовки к занятиям. |
 
 **Результат работы:**
+
 ![GigaChat Screenshot 1](screenshots/gigachat_1.png)
 ![GigaChat Screenshot 2](screenshots/gigachat_2.png)
 ![GigaChat Screenshot 3](screenshots/gigachat_3.png)
@@ -91,6 +92,7 @@
 | **Итоговая оценка** | **5** | Мощный инструмент для создания контрольно-измерительных материалов. |
 
 **Результат работы:**
+
 ![DeepSeek Screenshot 1](screenshots/deepseek_1.png)
 ![DeepSeek Screenshot 2](screenshots/deepseek_2.png)
 
